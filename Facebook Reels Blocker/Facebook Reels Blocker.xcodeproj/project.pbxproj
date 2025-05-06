@@ -1,0 +1,967 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F1ADC472DC9697B00DA30A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1ADC462DC9697B00DA30A3 /* AppDelegate.swift */; };
+		1F1ADC492DC9697B00DA30A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1ADC482DC9697B00DA30A3 /* SceneDelegate.swift */; };
+		1F1ADC4C2DC9697B00DA30A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F1ADC4A2DC9697B00DA30A3 /* LaunchScreen.storyboard */; };
+		1F1ADC4F2DC9697B00DA30A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F1ADC4D2DC9697B00DA30A3 /* Main.storyboard */; };
+		1F1ADC582DC9697B00DA30A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1ADC572DC9697B00DA30A3 /* AppDelegate.swift */; };
+		1F1ADC5B2DC9697B00DA30A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F1ADC592DC9697B00DA30A3 /* Main.storyboard */; };
+		1F1ADC632DC9697B00DA30A3 /* Facebook Reels Blocker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1F1ADC622DC9697B00DA30A3 /* Facebook Reels Blocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F1ADC6D2DC9697B00DA30A3 /* Facebook Reels Blocker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1F1ADC6C2DC9697B00DA30A3 /* Facebook Reels Blocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F1ADC732DC9697B00DA30A3 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 1F1ADC362DC9697A00DA30A3 /* Main.html */; };
+		1F1ADC742DC9697B00DA30A3 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 1F1ADC362DC9697A00DA30A3 /* Main.html */; };
+		1F1ADC752DC9697B00DA30A3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F1ADC382DC9697A00DA30A3 /* Icon.png */; };
+		1F1ADC762DC9697B00DA30A3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F1ADC382DC9697A00DA30A3 /* Icon.png */; };
+		1F1ADC772DC9697B00DA30A3 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 1F1ADC392DC9697A00DA30A3 /* Style.css */; };
+		1F1ADC782DC9697B00DA30A3 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 1F1ADC392DC9697A00DA30A3 /* Style.css */; };
+		1F1ADC792DC9697B00DA30A3 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1ADC3A2DC9697A00DA30A3 /* Script.js */; };
+		1F1ADC7A2DC9697B00DA30A3 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1ADC3A2DC9697A00DA30A3 /* Script.js */; };
+		1F1ADC7B2DC9697B00DA30A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1ADC3B2DC9697A00DA30A3 /* ViewController.swift */; };
+		1F1ADC7C2DC9697B00DA30A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1ADC3B2DC9697A00DA30A3 /* ViewController.swift */; };
+		1F1ADC7D2DC9697B00DA30A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F1ADC3C2DC9697B00DA30A3 /* Assets.xcassets */; };
+		1F1ADC7E2DC9697B00DA30A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F1ADC3C2DC9697B00DA30A3 /* Assets.xcassets */; };
+		1F1ADC7F2DC9697B00DA30A3 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1ADC3E2DC9697B00DA30A3 /* SafariWebExtensionHandler.swift */; };
+		1F1ADC802DC9697B00DA30A3 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1ADC3E2DC9697B00DA30A3 /* SafariWebExtensionHandler.swift */; };
+		1F1ADC962DC9697B00DA30A3 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 1F1ADC922DC9697B00DA30A3 /* icons */; };
+		1F1ADC972DC9697B00DA30A3 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F1ADC932DC9697B00DA30A3 /* manifest.json */; };
+		1F1ADC982DC9697B00DA30A3 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1ADC942DC9697B00DA30A3 /* content.js */; };
+		1F1ADC992DC9697B00DA30A3 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1F1ADC952DC9697B00DA30A3 /* LICENSE.txt */; };
+		1F1ADC9A2DC9697B00DA30A3 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 1F1ADC922DC9697B00DA30A3 /* icons */; };
+		1F1ADC9B2DC9697B00DA30A3 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F1ADC932DC9697B00DA30A3 /* manifest.json */; };
+		1F1ADC9C2DC9697B00DA30A3 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1ADC942DC9697B00DA30A3 /* content.js */; };
+		1F1ADC9D2DC9697B00DA30A3 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1F1ADC952DC9697B00DA30A3 /* LICENSE.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F1ADC642DC9697B00DA30A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F1ADC302DC9697A00DA30A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F1ADC612DC9697B00DA30A3;
+			remoteInfo = "Facebook Reels Blocker Extension (iOS)";
+		};
+		1F1ADC6E2DC9697B00DA30A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F1ADC302DC9697A00DA30A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F1ADC6B2DC9697B00DA30A3;
+			remoteInfo = "Facebook Reels Blocker Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F1ADC862DC9697B00DA30A3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1F1ADC632DC9697B00DA30A3 /* Facebook Reels Blocker Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1ADC8D2DC9697B00DA30A3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1F1ADC6D2DC9697B00DA30A3 /* Facebook Reels Blocker Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F1ADC372DC9697A00DA30A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		1F1ADC382DC9697A00DA30A3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1F1ADC392DC9697A00DA30A3 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		1F1ADC3A2DC9697A00DA30A3 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		1F1ADC3B2DC9697A00DA30A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F1ADC3C2DC9697B00DA30A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F1ADC3E2DC9697B00DA30A3 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		1F1ADC432DC9697B00DA30A3 /* Facebook Reels Blocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Facebook Reels Blocker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1ADC462DC9697B00DA30A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F1ADC482DC9697B00DA30A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F1ADC4B2DC9697B00DA30A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F1ADC4E2DC9697B00DA30A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F1ADC502DC9697B00DA30A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F1ADC552DC9697B00DA30A3 /* Facebook Reels Blocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Facebook Reels Blocker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1ADC572DC9697B00DA30A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F1ADC5A2DC9697B00DA30A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F1ADC5C2DC9697B00DA30A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F1ADC5D2DC9697B00DA30A3 /* Facebook Reels Blocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Facebook Reels Blocker.entitlements"; sourceTree = "<group>"; };
+		1F1ADC622DC9697B00DA30A3 /* Facebook Reels Blocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Facebook Reels Blocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1ADC672DC9697B00DA30A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F1ADC6C2DC9697B00DA30A3 /* Facebook Reels Blocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Facebook Reels Blocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1ADC712DC9697B00DA30A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F1ADC722DC9697B00DA30A3 /* Facebook Reels Blocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Facebook Reels Blocker.entitlements"; sourceTree = "<group>"; };
+		1F1ADC922DC9697B00DA30A3 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = "../../chrome-firefox/icons"; sourceTree = "<group>"; };
+		1F1ADC932DC9697B00DA30A3 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../chrome-firefox/manifest.json"; sourceTree = "<group>"; };
+		1F1ADC942DC9697B00DA30A3 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = "../../chrome-firefox/content.js"; sourceTree = "<group>"; };
+		1F1ADC952DC9697B00DA30A3 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE.txt; path = "../../chrome-firefox/LICENSE.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F1ADC402DC9697B00DA30A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1ADC522DC9697B00DA30A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1ADC5F2DC9697B00DA30A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1ADC692DC9697B00DA30A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F1ADC2F2DC9697A00DA30A3 = {
+			isa = PBXGroup;
+			children = (
+				1F1ADC342DC9697A00DA30A3 /* Shared (App) */,
+				1F1ADC3D2DC9697B00DA30A3 /* Shared (Extension) */,
+				1F1ADC452DC9697B00DA30A3 /* iOS (App) */,
+				1F1ADC562DC9697B00DA30A3 /* macOS (App) */,
+				1F1ADC662DC9697B00DA30A3 /* iOS (Extension) */,
+				1F1ADC702DC9697B00DA30A3 /* macOS (Extension) */,
+				1F1ADC442DC9697B00DA30A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F1ADC342DC9697A00DA30A3 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				1F1ADC3B2DC9697A00DA30A3 /* ViewController.swift */,
+				1F1ADC3C2DC9697B00DA30A3 /* Assets.xcassets */,
+				1F1ADC352DC9697A00DA30A3 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		1F1ADC352DC9697A00DA30A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F1ADC362DC9697A00DA30A3 /* Main.html */,
+				1F1ADC382DC9697A00DA30A3 /* Icon.png */,
+				1F1ADC392DC9697A00DA30A3 /* Style.css */,
+				1F1ADC3A2DC9697A00DA30A3 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1F1ADC3D2DC9697B00DA30A3 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1F1ADC912DC9697B00DA30A3 /* Resources */,
+				1F1ADC3E2DC9697B00DA30A3 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		1F1ADC442DC9697B00DA30A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F1ADC432DC9697B00DA30A3 /* Facebook Reels Blocker.app */,
+				1F1ADC552DC9697B00DA30A3 /* Facebook Reels Blocker.app */,
+				1F1ADC622DC9697B00DA30A3 /* Facebook Reels Blocker Extension.appex */,
+				1F1ADC6C2DC9697B00DA30A3 /* Facebook Reels Blocker Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F1ADC452DC9697B00DA30A3 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				1F1ADC462DC9697B00DA30A3 /* AppDelegate.swift */,
+				1F1ADC482DC9697B00DA30A3 /* SceneDelegate.swift */,
+				1F1ADC4A2DC9697B00DA30A3 /* LaunchScreen.storyboard */,
+				1F1ADC4D2DC9697B00DA30A3 /* Main.storyboard */,
+				1F1ADC502DC9697B00DA30A3 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		1F1ADC562DC9697B00DA30A3 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				1F1ADC572DC9697B00DA30A3 /* AppDelegate.swift */,
+				1F1ADC592DC9697B00DA30A3 /* Main.storyboard */,
+				1F1ADC5C2DC9697B00DA30A3 /* Info.plist */,
+				1F1ADC5D2DC9697B00DA30A3 /* Facebook Reels Blocker.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		1F1ADC662DC9697B00DA30A3 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1F1ADC672DC9697B00DA30A3 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		1F1ADC702DC9697B00DA30A3 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1F1ADC712DC9697B00DA30A3 /* Info.plist */,
+				1F1ADC722DC9697B00DA30A3 /* Facebook Reels Blocker.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		1F1ADC912DC9697B00DA30A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F1ADC922DC9697B00DA30A3 /* icons */,
+				1F1ADC932DC9697B00DA30A3 /* manifest.json */,
+				1F1ADC942DC9697B00DA30A3 /* content.js */,
+				1F1ADC952DC9697B00DA30A3 /* LICENSE.txt */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F1ADC422DC9697B00DA30A3 /* Facebook Reels Blocker (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1ADC872DC9697B00DA30A3 /* Build configuration list for PBXNativeTarget "Facebook Reels Blocker (iOS)" */;
+			buildPhases = (
+				1F1ADC3F2DC9697B00DA30A3 /* Sources */,
+				1F1ADC402DC9697B00DA30A3 /* Frameworks */,
+				1F1ADC412DC9697B00DA30A3 /* Resources */,
+				1F1ADC862DC9697B00DA30A3 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F1ADC652DC9697B00DA30A3 /* PBXTargetDependency */,
+			);
+			name = "Facebook Reels Blocker (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Facebook Reels Blocker (iOS)";
+			productReference = 1F1ADC432DC9697B00DA30A3 /* Facebook Reels Blocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F1ADC542DC9697B00DA30A3 /* Facebook Reels Blocker (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1ADC8E2DC9697B00DA30A3 /* Build configuration list for PBXNativeTarget "Facebook Reels Blocker (macOS)" */;
+			buildPhases = (
+				1F1ADC512DC9697B00DA30A3 /* Sources */,
+				1F1ADC522DC9697B00DA30A3 /* Frameworks */,
+				1F1ADC532DC9697B00DA30A3 /* Resources */,
+				1F1ADC8D2DC9697B00DA30A3 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F1ADC6F2DC9697B00DA30A3 /* PBXTargetDependency */,
+			);
+			name = "Facebook Reels Blocker (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Facebook Reels Blocker (macOS)";
+			productReference = 1F1ADC552DC9697B00DA30A3 /* Facebook Reels Blocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F1ADC612DC9697B00DA30A3 /* Facebook Reels Blocker Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1ADC832DC9697B00DA30A3 /* Build configuration list for PBXNativeTarget "Facebook Reels Blocker Extension (iOS)" */;
+			buildPhases = (
+				1F1ADC5E2DC9697B00DA30A3 /* Sources */,
+				1F1ADC5F2DC9697B00DA30A3 /* Frameworks */,
+				1F1ADC602DC9697B00DA30A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Facebook Reels Blocker Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Facebook Reels Blocker Extension (iOS)";
+			productReference = 1F1ADC622DC9697B00DA30A3 /* Facebook Reels Blocker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1F1ADC6B2DC9697B00DA30A3 /* Facebook Reels Blocker Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1ADC8A2DC9697B00DA30A3 /* Build configuration list for PBXNativeTarget "Facebook Reels Blocker Extension (macOS)" */;
+			buildPhases = (
+				1F1ADC682DC9697B00DA30A3 /* Sources */,
+				1F1ADC692DC9697B00DA30A3 /* Frameworks */,
+				1F1ADC6A2DC9697B00DA30A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Facebook Reels Blocker Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Facebook Reels Blocker Extension (macOS)";
+			productReference = 1F1ADC6C2DC9697B00DA30A3 /* Facebook Reels Blocker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F1ADC302DC9697A00DA30A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					1F1ADC422DC9697B00DA30A3 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					1F1ADC542DC9697B00DA30A3 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					1F1ADC612DC9697B00DA30A3 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					1F1ADC6B2DC9697B00DA30A3 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 1F1ADC332DC9697A00DA30A3 /* Build configuration list for PBXProject "Facebook Reels Blocker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F1ADC2F2DC9697A00DA30A3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1F1ADC442DC9697B00DA30A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F1ADC422DC9697B00DA30A3 /* Facebook Reels Blocker (iOS) */,
+				1F1ADC542DC9697B00DA30A3 /* Facebook Reels Blocker (macOS) */,
+				1F1ADC612DC9697B00DA30A3 /* Facebook Reels Blocker Extension (iOS) */,
+				1F1ADC6B2DC9697B00DA30A3 /* Facebook Reels Blocker Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F1ADC412DC9697B00DA30A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1ADC752DC9697B00DA30A3 /* Icon.png in Resources */,
+				1F1ADC4C2DC9697B00DA30A3 /* LaunchScreen.storyboard in Resources */,
+				1F1ADC732DC9697B00DA30A3 /* Main.html in Resources */,
+				1F1ADC792DC9697B00DA30A3 /* Script.js in Resources */,
+				1F1ADC7D2DC9697B00DA30A3 /* Assets.xcassets in Resources */,
+				1F1ADC4F2DC9697B00DA30A3 /* Main.storyboard in Resources */,
+				1F1ADC772DC9697B00DA30A3 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1ADC532DC9697B00DA30A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1ADC762DC9697B00DA30A3 /* Icon.png in Resources */,
+				1F1ADC782DC9697B00DA30A3 /* Style.css in Resources */,
+				1F1ADC5B2DC9697B00DA30A3 /* Main.storyboard in Resources */,
+				1F1ADC7A2DC9697B00DA30A3 /* Script.js in Resources */,
+				1F1ADC7E2DC9697B00DA30A3 /* Assets.xcassets in Resources */,
+				1F1ADC742DC9697B00DA30A3 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1ADC602DC9697B00DA30A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1ADC9D2DC9697B00DA30A3 /* LICENSE.txt in Resources */,
+				1F1ADC9C2DC9697B00DA30A3 /* content.js in Resources */,
+				1F1ADC9B2DC9697B00DA30A3 /* manifest.json in Resources */,
+				1F1ADC9A2DC9697B00DA30A3 /* icons in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1ADC6A2DC9697B00DA30A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1ADC992DC9697B00DA30A3 /* LICENSE.txt in Resources */,
+				1F1ADC982DC9697B00DA30A3 /* content.js in Resources */,
+				1F1ADC972DC9697B00DA30A3 /* manifest.json in Resources */,
+				1F1ADC962DC9697B00DA30A3 /* icons in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F1ADC3F2DC9697B00DA30A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1ADC7B2DC9697B00DA30A3 /* ViewController.swift in Sources */,
+				1F1ADC472DC9697B00DA30A3 /* AppDelegate.swift in Sources */,
+				1F1ADC492DC9697B00DA30A3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1ADC512DC9697B00DA30A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1ADC7C2DC9697B00DA30A3 /* ViewController.swift in Sources */,
+				1F1ADC582DC9697B00DA30A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1ADC5E2DC9697B00DA30A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1ADC7F2DC9697B00DA30A3 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1ADC682DC9697B00DA30A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1ADC802DC9697B00DA30A3 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F1ADC652DC9697B00DA30A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F1ADC612DC9697B00DA30A3 /* Facebook Reels Blocker Extension (iOS) */;
+			targetProxy = 1F1ADC642DC9697B00DA30A3 /* PBXContainerItemProxy */;
+		};
+		1F1ADC6F2DC9697B00DA30A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F1ADC6B2DC9697B00DA30A3 /* Facebook Reels Blocker Extension (macOS) */;
+			targetProxy = 1F1ADC6E2DC9697B00DA30A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F1ADC362DC9697A00DA30A3 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F1ADC372DC9697A00DA30A3 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		1F1ADC4A2DC9697B00DA30A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F1ADC4B2DC9697B00DA30A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1F1ADC4D2DC9697B00DA30A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F1ADC4E2DC9697B00DA30A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F1ADC592DC9697B00DA30A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F1ADC5A2DC9697B00DA30A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F1ADC812DC9697B00DA30A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F1ADC822DC9697B00DA30A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1F1ADC842DC9697B00DA30A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Facebook Reels Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Facebook-Reels-Blocker.Extension";
+				PRODUCT_NAME = "Facebook Reels Blocker Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F1ADC852DC9697B00DA30A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Facebook Reels Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Facebook-Reels-Blocker.Extension";
+				PRODUCT_NAME = "Facebook Reels Blocker Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F1ADC882DC9697B00DA30A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Facebook Reels Blocker";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Facebook-Reels-Blocker";
+				PRODUCT_NAME = "Facebook Reels Blocker";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F1ADC892DC9697B00DA30A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Facebook Reels Blocker";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Facebook-Reels-Blocker";
+				PRODUCT_NAME = "Facebook Reels Blocker";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F1ADC8B2DC9697B00DA30A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Facebook Reels Blocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Facebook Reels Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Facebook-Reels-Blocker.Extension";
+				PRODUCT_NAME = "Facebook Reels Blocker Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1F1ADC8C2DC9697B00DA30A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Facebook Reels Blocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Facebook Reels Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Facebook-Reels-Blocker.Extension";
+				PRODUCT_NAME = "Facebook Reels Blocker Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1F1ADC8F2DC9697B00DA30A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Facebook Reels Blocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Facebook Reels Blocker";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Facebook-Reels-Blocker";
+				PRODUCT_NAME = "Facebook Reels Blocker";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1F1ADC902DC9697B00DA30A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Facebook Reels Blocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Facebook Reels Blocker";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Facebook-Reels-Blocker";
+				PRODUCT_NAME = "Facebook Reels Blocker";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F1ADC332DC9697A00DA30A3 /* Build configuration list for PBXProject "Facebook Reels Blocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1ADC812DC9697B00DA30A3 /* Debug */,
+				1F1ADC822DC9697B00DA30A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1ADC832DC9697B00DA30A3 /* Build configuration list for PBXNativeTarget "Facebook Reels Blocker Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1ADC842DC9697B00DA30A3 /* Debug */,
+				1F1ADC852DC9697B00DA30A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1ADC872DC9697B00DA30A3 /* Build configuration list for PBXNativeTarget "Facebook Reels Blocker (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1ADC882DC9697B00DA30A3 /* Debug */,
+				1F1ADC892DC9697B00DA30A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1ADC8A2DC9697B00DA30A3 /* Build configuration list for PBXNativeTarget "Facebook Reels Blocker Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1ADC8B2DC9697B00DA30A3 /* Debug */,
+				1F1ADC8C2DC9697B00DA30A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1ADC8E2DC9697B00DA30A3 /* Build configuration list for PBXNativeTarget "Facebook Reels Blocker (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1ADC8F2DC9697B00DA30A3 /* Debug */,
+				1F1ADC902DC9697B00DA30A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F1ADC302DC9697A00DA30A3 /* Project object */;
+}
